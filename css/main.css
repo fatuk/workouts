@@ -119,6 +119,75 @@ h1 {
 .main-section__price {
   margin-top: 18px;
 }
+.progress-section__title {
+  margin-bottom: 20px;
+}
+.progress-section__title .pink {
+  color: #d966a9;
+}
+.progress-section__title .blue {
+  color: #40aeeb;
+}
+.progress-section__title .orange {
+  color: #ef8f14;
+}
+.progress-section__list {
+  width: 839px;
+  height: 350px;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.progress-section__item {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+}
+.progress-section__item.last {
+  right: 0;
+  left: inherit;
+}
+.progress-section__item.second {
+  left: 50%;
+  margin-left: -90px;
+  margin-top: 68px;
+}
+.progress-section__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress-section__img-full {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+.progress-section__img-full-i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 180px;
+  height: 180px;
+}
+.progress-section__counter {
+  width: 100%;
+  font-size: 50.49px;
+  position: absolute;
+  bottom: -90px;
+}
+.progress-section__counter.pink {
+  color: #d966a9;
+}
+.progress-section__counter.blue {
+  color: #40aeeb;
+}
+.progress-section__counter.orange {
+  color: #ef8f14;
+}
 .calendar-section {
   padding-bottom: 120px;
 }
