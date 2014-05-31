@@ -1,0 +1,48 @@
+.cards-section
+    &__title
+        margin-top 68px
+        margin-bottom 77px
+        padding-left 35px
+    &__list
+        position relative
+        height 430px
+        list-style none
+        padding 0
+        margin 0
+        clearfix()
+        border-bottom solid 1px #616C75
+    &__item
+        position absolute
+        &.first
+            left 0
+            z-index 30
+        &.second
+            left 50%
+            margin-left -250px
+            z-index 20
+        &.last
+            right 0
+            z-index 10
+    &__text
+        clearfix()
+        color #9babba
+        font-size 40px
+        margin-top 5px
+    &__column
+        float left
+        width 50%
+        text-align left
+        line-height 55px
+        position relative
+        &:first-child
+            padding-right 25px
+            padding-left 46px
+            &:before
+                content url('../img/open-quot.svg')
+                margin-left -41px
+         &:last-child
+            padding-right 46px
+            padding-left 25px
+            &:after
+                content url('../img/open-quot.svg')
+                margin-right -30px
