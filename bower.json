@@ -1,20 +1,21 @@
 {
-    "name": "workouts",
-    "version": "0.0.0",
-    "authors": [
-        "fatuk <fatukk@gmail.com>"
-    ],
-    "license": "MIT",
-    "private": true,
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "jquery": "1.11.1",
-        "jQuery-Open-Carousel": "git@github.com:justinmc/jQuery-Open-Carousel.git#~1.1.0"
-    }
+  "name": "workouts",
+  "version": "0.0.0",
+  "authors": [
+    "fatuk <fatukk@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "jQuery-Open-Carousel": "git@github.com:justinmc/jQuery-Open-Carousel.git#~1.1.0",
+    "WOW": "~0.1.9"
+  }
 }

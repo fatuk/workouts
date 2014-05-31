@@ -3,12 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <title>Workouts</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/jquery.openCarousel.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!-- Main section -->
+    <section class="section main-section">
+        <div class="container">
+            <header class="site-header wow slideInDown">
+                <div class="site-header__logo">
+                    <a href="#" class="site-header__link">
+                        <img src="img/logo.svg" class="site-header__logo-text">
+                    </a>
+                </div>
+                <!-- Main menu -->
+                <nav class="main-menu main-menu_right">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <img src="img/write-to-us.svg" alt="" class="main-menu__img">
+                            </a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <img src="img/press-kit.svg" alt="" class="main-menu__img">
+                            </a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">
+                                <img src="img/facebook.svg" alt="" class="main-menu__img">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Main menu end -->
+            </header>
+            <div class="main-section__content">
+                <div class="main-section__phone wow rotateInDownLeft" data-wow-delay="1s">
+                    <img src="img/phone-v.svg" alt="" class="main-section__phone-img">
+                    <div class="main-section__carousel ocarousel"
+                        data-ocarousel-indicator-fill="#6B757E"
+                        data-ocarousel-indicator-spacing="10"
+                        data-ocarousel-indicator-strokewidth="0"
+                        data-ocarousel-indicator-stroke="#FEFFFF"
+                        data-ocarousel-indicator-r="3">
+                        <div class="ocarousel_window">
+                            <img src="img/slide-1.svg" alt="">
+                            <img src="img/slide-2.svg" alt="">
+                            <img src="img/slide-3.svg" alt="">
+                        </div>
+                        <div class="ocarousel_indicators"></div>
+                    </div>
+                </div>
+                <div class="main-section__description wow fadeIn" data-wow-delay="2s">
+                    <i class="main-section__square"></i>
+                    <h1 class="main-section__title">
+                        Nice and Simple Card Self-manager
+                    </h1>
+                    <a href="#" class="btn btn_big">
+                        <img src="img/download.svg" alt="Download">
+                    </a>
+                    <div class="main-section__price">
+                        <img src="img/cost.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main section end -->
+    <!-- Cards section -->
+    <section class="section cards-section">
+        <div class="container">
+            <h1 class="cards-section__title">
+                Create a cards for each workout and check them regular
+            </h1>
+            <ul class="cards-section__list">
+                <li class="cards-section__item">
+                    <img src="" alt="" class="cards-section__img">
+                </li>
+                <li class="cards-section__item">
+                    <img src="" alt="" class="cards-section__img">
+                </li>
+                <li class="cards-section__item">
+                    <img src="" alt="" class="cards-section__img">
+                </li>
+            </ul>
+            <div class="cards-section__text">
+                <p class="cards-section__column">
+                    Are you a runner, go to the pool, like to read books and learn foreign languages?
+                    Maybe you learn to play guitar, play football or like to take photos?
+                </p>
+                <p class="cards-section__column">
+                    Excellent ! Now you can with interest control your all-round evolve, and to manage everything.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Cards section end -->
+    <!-- Calendar section -->
+    <section class="section calendar-section">
+        <h1 class="calendar-section__title wow bounceInLeft">
+            Edit your workouts plan. Your weekly schedule is always before his eyes
+        </h1>
+        <div class="calendar-section__calendar"></div>
+    </section>
+    <!-- Calendar section end -->
+    <!-- Progress section -->
+    <section class="section progress-section">
+        <h1 class="progress-section__title">
+            Evolve in three directions. Health, creativity and knowledge. Be in good shape, watch your figures
+        </h1>
+        <div class="progress-section__statistic"></div>
+    </section>
+    <!-- Progress section end -->
+    <!-- Famous section -->
+    <section class="section famous-section"></section>
+    <!-- Famous section end -->
+    <!-- Achievements section -->
+    <section class="section achievements-section"></section>
+    <!-- Achievements section end -->
 
-
-<script src="js/plugins.js"></script>
+<script src="js/plugins.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

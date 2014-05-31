@@ -4,7 +4,7 @@ module.exports = {
             compress: false
         },
         files: {
-            'css/main.css': 'styl/main.styl'
+            'css/main.css': ['stylus/main.styl']
         }
     }
 };

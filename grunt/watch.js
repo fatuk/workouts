@@ -3,7 +3,7 @@ module.exports = {
         livereload: true
     },
     stylus: {
-        files: 'styl/*.styl',
+        files: 'stylus/*.styl',
         tasks: ['stylus'],
         options: {
             interrupt: true,
