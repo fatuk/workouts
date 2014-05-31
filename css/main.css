@@ -16,6 +16,9 @@
 .btn img {
   padding-top: 5px;
 }
+.hide {
+  display: none;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -48,6 +51,7 @@ h1 {
   font-weight: normal;
   display: inline-block;
   text-align: center;
+  margin-top: 68px;
 }
 .main-section {
   padding-bottom: 60px;
@@ -115,8 +119,79 @@ h1 {
 .main-section__price {
   margin-top: 18px;
 }
+.calendar-section {
+  padding-bottom: 120px;
+}
+.calendar-section__calendar {
+  position: relative;
+}
+.calendar-section__calendar-i {
+  width: 100%;
+  height: 430px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.calendar-section__calendar-img {
+  position: absolute;
+  top: 47px;
+  left: 135px;
+}
+.calendar-section__add {
+  position: absolute;
+  top: 279px;
+  left: 564px;
+}
+.calendar-section__popup {
+  position: absolute;
+  top: 147px;
+  left: 50%;
+  margin-left: -350px;
+}
+.calendar-section__popup-i {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.calendar-section__checked {
+  position: absolute;
+  top: 250px;
+  left: 368px;
+}
+.calendar-section__checked-i {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.calendar-section__drawing,
+.calendar-section__drawing-active {
+  position: absolute;
+  top: 234px;
+  left: 368px;
+}
+.calendar-section__drawing-set {
+  position: absolute;
+  top: 237px;
+  left: 539px;
+}
+.calendar-section__drawing-i {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.calendar-section__add-workout {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -75px;
+}
+.calendar-section__add-workout-i {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 .cards-section__title {
-  margin-top: 68px;
   margin-bottom: 77px;
   padding-left: 35px;
 }
