@@ -37,7 +37,6 @@ $(function() {
         if ($('.js-heartNumbers.animated').length !== 0 && !heartDisplayed) {
             heartDisplayed = true;
             setTimeout(function() {
-                console.log('enum');
                 $('.js-heartNumbers.animated').find('.js-number').numerator(heartOptions);
             }, 300);
         }
