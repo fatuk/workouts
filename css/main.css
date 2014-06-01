@@ -117,8 +117,9 @@ h1 {
   margin-right: 0;
 }
 .main-section__carousel .ocarousel_indicators {
+  width: 160px;
+  margin: 0 auto;
   margin-top: 8px;
-  margin-left: -15px;
 }
 .main-section__description {
   float: right;
