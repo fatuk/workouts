@@ -117,9 +117,9 @@ h1 {
   margin-right: 0;
 }
 .main-section__carousel .ocarousel_indicators {
-  width: 185px;
-  margin: 0 auto;
   margin-top: 8px;
+  position: absolute;
+  left: 4px;
 }
 .main-section__description {
   float: right;
@@ -128,7 +128,7 @@ h1 {
 }
 .main-section__icon {
   margin-top: 88px;
-  width: 150px;
+  width: 165px;
   display: inline-block;
 }
 .main-section__title {
@@ -547,12 +547,15 @@ h1 {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)" !important;
   filter: alpha(opacity=40) !important;
 }
+.main-menu__img {
+  height: 22px;
+}
 .main-menu_right {
   float: right;
 }
 .main-menu_center {
   display: block;
-  width: 370px;
+  width: 520px;
   margin: 0 auto;
 }
 .site-footer {
