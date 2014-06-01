@@ -116,13 +116,9 @@ h1 {
   width: 470px;
   text-align: center;
 }
-.main-section__square {
+.main-section__icon {
   margin-top: 88px;
-  width: 120px;
-  height: 120px;
-  -webkit-border-radius: 30px;
-  border-radius: 30px;
-  background: #d5d9dc;
+  width: 150px;
   display: inline-block;
 }
 .main-section__title {
@@ -335,11 +331,15 @@ h1 {
   clear: both;
 }
 .famous-section__info-item {
-  float: left;
-  margin-right: 5px;
+  position: absolute;
+  top: -55px;
+  left: 0;
 }
-.famous-section__info-item:last-child {
-  margin-right: 0;
+.famous-section__info-item:nth-child(2) {
+  left: 60px;
+}
+.famous-section__info-item:nth-child(3) {
+  left: 120px;
 }
 .famous-section__info-text {
   font-size: 32px;

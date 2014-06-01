@@ -1,6 +1,11 @@
 $(function() {
     new WOW().init();
 
+    setTimeout(function() {
+        $(window).scrollTop(0);
+        new WOW().init();
+    }, 500);
+
     var heartDisplayed, bookDisplayed, creativityDisplayed = false,
         heartOptions = {
             duration: 1000,
