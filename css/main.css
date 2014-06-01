@@ -491,6 +491,8 @@ h1 {
 .cards-section__column:first-child:before {
   content: url("../img/open-quot.svg");
   margin-left: -41px;
+  width: 30px;
+  display: inline-block;
 }
 .cards-section__column:last-child {
   padding-right: 46px;
@@ -499,6 +501,8 @@ h1 {
 .cards-section__column:last-child:after {
   content: url("../img/open-quot.svg");
   margin-right: -30px;
+  width: 30px;
+  display: inline-block;
 }
 .main-menu {
   display: inline-block;
