@@ -42,6 +42,7 @@ html {
   width: 943px;
   margin: 0 auto;
   text-align: center;
+  overflow: hidden;
 }
 .section {
   background: #2a3845;
@@ -306,11 +307,9 @@ h1 {
   bottom: 0;
   left: 0;
 }
-.famous-section {
-  padding-bottom: 280px;
-}
 .famous-section__content {
   position: relative;
+  height: 970px;
 }
 .famous-section__salut {
   position: absolute;
@@ -320,7 +319,7 @@ h1 {
 .famous-section__info {
   position: absolute;
   right: 84px;
-  bottom: -200px;
+  bottom: 100px;
 }
 .famous-section__info-list {
   list-style: none;
