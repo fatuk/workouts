@@ -304,6 +304,53 @@ h1 {
   bottom: 0;
   left: 0;
 }
+.famous-section {
+  padding-bottom: 280px;
+}
+.famous-section__content {
+  position: relative;
+}
+.famous-section__salut {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.famous-section__info {
+  position: absolute;
+  right: 84px;
+  bottom: -200px;
+}
+.famous-section__info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  zoom: 1;
+}
+.famous-section__info-list:before,
+.famous-section__info-list:after {
+  content: "";
+  display: table;
+}
+.famous-section__info-list:after {
+  clear: both;
+}
+.famous-section__info-item {
+  float: left;
+  margin-right: 5px;
+}
+.famous-section__info-item:last-child {
+  margin-right: 0;
+}
+.famous-section__info-text {
+  font-size: 32px;
+  color: #9babba;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 45px;
+}
+.famous-section__info-text strong {
+  color: #f5faff;
+}
 .cards-section__title {
   margin-bottom: 77px;
   padding-left: 35px;
