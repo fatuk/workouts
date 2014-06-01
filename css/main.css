@@ -42,6 +42,8 @@ html {
   width: 943px;
   margin: 0 auto;
   text-align: center;
+}
+.container_overflow {
   overflow: hidden;
 }
 .section {
@@ -208,9 +210,12 @@ h1 {
   color: #ef8f14;
 }
 .progress-section__block {
+  width: 99%;
   zoom: 1;
   border: solid 1px #67717a;
   margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .progress-section__block:before,
 .progress-section__block:after {
@@ -253,6 +258,9 @@ h1 {
   position: absolute;
   top: 47px;
   left: 135px;
+}
+.calendar-section__phone {
+  width: 100%;
 }
 .calendar-section__add {
   position: absolute;
@@ -360,11 +368,14 @@ h1 {
   padding-top: 70px;
 }
 .achievements-section__block {
+  width: 99%;
   zoom: 1;
   border: solid 1px #67717a;
   padding-right: 60px;
   padding-left: 80px;
   padding-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .achievements-section__block:before,
 .achievements-section__block:after {
@@ -383,7 +394,7 @@ h1 {
   margin-top: 58px;
 }
 .achievements-section__img {
-  width: 430px;
+  width: 421px;
   float: left;
   padding-left: 63px;
   padding-top: 37px;
