@@ -83,6 +83,11 @@ h1 {
   overflow: hidden;
   float: left;
 }
+.main-section__phone-menu {
+  position: absolute;
+  top: 156px;
+  left: 63px;
+}
 .main-section__phone-img {
   width: 419px;
   padding-left: 3px;
