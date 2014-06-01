@@ -1,10 +1,5 @@
 $(function() {
-    new WOW().init();
-
-    setTimeout(function() {
-        $(window).scrollTop(0);
-        new WOW().init();
-    }, 500);
+    // new WOW().init();
 
     var heartDisplayed, bookDisplayed, creativityDisplayed = false,
         heartOptions = {
@@ -41,21 +36,32 @@ $(function() {
         // heart
         if ($('.js-heartNumbers.animated').length !== 0 && !heartDisplayed) {
             heartDisplayed = true;
-            $('.js-heartNumbers.animated').find('.js-number').numerator(heartOptions);
+            setTimeout(function() {
+                console.log('enum');
+                $('.js-heartNumbers.animated').find('.js-number').numerator(heartOptions);
+            }, 300);
         }
         // book
         if ($('.js-bookNumbers.animated').length !== 0 && !bookDisplayed) {
             bookDisplayed = true;
             setTimeout(function() {
                 $('.js-bookNumbers.animated').find('.js-number').numerator(bookOptions);
-            }, 500);
+            }, 1000);
         }
         // creativity
         if ($('.js-creativityNumbers.animated').length !== 0 && !creativityDisplayed) {
             creativityDisplayed = true;
             setTimeout(function() {
                 $('.js-creativityNumbers.animated').find('.js-number').numerator(creativityOptions);
-            }, 1000);
+            }, 1500);
         }
     });
+
+    setTimeout(function() {
+        $(window).scrollTop(0);
+        new WOW().init();
+        heartDisplayed = false;
+        bookDisplayed = false;
+        creativityDisplayed = false;
+    }, 500);
 });
