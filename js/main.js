@@ -62,5 +62,8 @@ $(function() {
         heartDisplayed = false;
         bookDisplayed = false;
         creativityDisplayed = false;
-    }, 500);
+        $('body').css({
+            'display': 'block'
+        });
+    }, 1000);
 });

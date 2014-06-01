@@ -27,6 +27,12 @@
 .hide {
   display: none;
 }
+body {
+  display: none;
+}
+html {
+  background: #2a3845;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
