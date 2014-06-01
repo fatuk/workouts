@@ -38,12 +38,14 @@ $(function() {
             heartDisplayed = true;
             $('.js-heartNumbers.animated').find('.js-number').numerator(heartOptions);
         }
+        // book
         if ($('.js-bookNumbers.animated').length !== 0 && !bookDisplayed) {
             bookDisplayed = true;
             setTimeout(function() {
                 $('.js-bookNumbers.animated').find('.js-number').numerator(bookOptions);
             }, 500);
         }
+        // creativity
         if ($('.js-creativityNumbers.animated').length !== 0 && !creativityDisplayed) {
             creativityDisplayed = true;
             setTimeout(function() {

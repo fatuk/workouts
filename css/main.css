@@ -16,6 +16,14 @@
 .btn img {
   padding-top: 5px;
 }
+.btn_inactive img {
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+}
+.btn_inactive:hover {
+  background: #d4684f;
+}
 .hide {
   display: none;
 }
@@ -119,6 +127,9 @@ h1 {
 .main-section__price {
   margin-top: 18px;
 }
+.progress-section {
+  padding-bottom: 90px;
+}
 .progress-section__title {
   margin-bottom: 20px;
 }
@@ -187,6 +198,34 @@ h1 {
 }
 .progress-section__counter.orange {
   color: #ef8f14;
+}
+.progress-section__block {
+  zoom: 1;
+  border: solid 1px #67717a;
+  margin-top: 65px;
+}
+.progress-section__block:before,
+.progress-section__block:after {
+  content: "";
+  display: table;
+}
+.progress-section__block:after {
+  clear: both;
+}
+.progress-section__block-img {
+  width: 487px;
+  float: left;
+  padding-left: 64px;
+  padding-bottom: 19px;
+  padding-top: 7px;
+}
+.progress-section__block-text {
+  float: left;
+  font-size: 52.5px;
+  color: #f5faff;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 5px;
 }
 .calendar-section {
   padding-bottom: 120px;
@@ -370,6 +409,11 @@ h1 {
   opacity: 0.75;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
   filter: alpha(opacity=75);
+}
+.main-menu__link_inactive {
+  opacity: 0.4 !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)" !important;
+  filter: alpha(opacity=40) !important;
 }
 .main-menu_right {
   float: right;
