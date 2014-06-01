@@ -117,7 +117,7 @@ h1 {
   margin-right: 0;
 }
 .main-section__carousel .ocarousel_indicators {
-  width: 160px;
+  width: 185px;
   margin: 0 auto;
   margin-top: 8px;
 }
@@ -257,6 +257,7 @@ h1 {
 }
 .calendar-section__calendar-img {
   position: absolute;
+  width: 650px;
   top: 47px;
   left: 135px;
 }
